@@ -1,5 +1,5 @@
 {
-  "homepage": "http://keshav220691.github.io/Passward-Generator.",
+  "homepage": "http://keshav220691.github.io/Passward-Generator/",
   "name": "passgenerator",
   "private": true,
   "version": "0.0.0",
@@ -8,9 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
+    "preview": "vite preview --port 8080",
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build"
+    "deploy" : "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
